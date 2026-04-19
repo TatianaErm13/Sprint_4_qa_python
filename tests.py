@@ -105,3 +105,4 @@ class TestBooksCollector:
         favorites = collector.get_list_of_favorites_books()
         assert 'Книга 1' in favorites
         assert len(favorites) == 1
+        
